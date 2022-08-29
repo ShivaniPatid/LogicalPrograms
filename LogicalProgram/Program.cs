@@ -13,8 +13,10 @@ namespace LogicalProgram
             switch (num)
             {
                 case 1:
+                    FibonacciSeries.PrintFibonacciSeries();
                     break;
                 default:
+                    Console.WriteLine("Choose Rigth Number");
                     break;
             }
         }
